@@ -1,0 +1,798 @@
+@media(max-width:320px)and (min-width:0px){
+    .top_header{
+        display: none;
+    }
+    .btn_join{
+        display: none;
+    }
+    .large_btn_join{
+        display: inherit;
+    }
+    .nav-item{
+        text-align: center;
+        margin: auto;
+    }
+    .instration_item{
+        margin-bottom: 20px;
+    }
+    .instration_item p{
+        font-size:14px
+    }
+    .box {
+        width: 87px;
+        height: 37px;
+        margin-right: 30px;
+        margin-left: 10px;
+    }
+    .futared_section ul li p {
+        font-size: 14px;
+    }
+    .futared_section span {
+        width: 100px;
+        margin: auto;
+    }
+    .iphone img{
+        display: none;
+    }
+    .futared_section ul li {
+        margin: 25px 0px;
+    }
+    .countan h4 {
+        font-size: 12px;
+    }
+    .countan h2 {
+        font-size: 33px;
+    }
+    .icon i {
+        font-size: 14px;
+    }
+    .icon {
+        width: 35px;
+        height: 35px;
+    }
+    .safe p {
+        font-size: 12px;
+    }
+    .safe {
+        top: 10%;
+        left: 20%;
+        transform: translate(-55%, -15%);
+    }
+    .icon3 i {
+        font-size: 14px;
+    }
+    .icon3 {
+        width: 35px;
+        height: 35px;
+    }
+    .exparts p {
+        font-size: 12px;
+    }
+    .exparts {
+        top: 10%;
+        right: 3%;
+        transform: translate(0px,-10px);
+    }
+    .icon2 i {
+        font-size: 14px;
+    }
+    .icon2 {
+        width: 35px;
+        height: 35px;
+    }
+    .phone p {
+        font-size: 12px;
+    }
+    .phone {
+        top: 50%;
+        left: 10%;
+        transform: translate(-15px, -15px);
+    }
+    .icon4 i {
+        font-size: 14px;
+    }
+    .icon4 {
+        width: 35px;
+        height: 35px;
+    }
+    .instant_ p{
+        font-size: 11px;
+    }
+    .instant_ {
+        top: 45%;
+        right: 0%;
+        transform: translate(-8px, -10px);
+    }
+    .icon5 {
+        width: 35px;
+        height: 35px;
+    }
+    .icon5 i {
+        font-size: 14px;
+    }
+    .Buys p{
+        font-size: 12px;
+    }
+    .Buys {
+        bottom: 0%;
+        right: 0%;
+        transform: translate(-18%, 15%);
+    }
+    .walet {
+        left: 12%;
+        top: 83%;
+        transform: translate(-11px, -10px);
+    }
+    .walet p{
+        font-size: 12px;
+    }
+    .heading p {
+        font-size: 13px;
+    }
+    .blog_contant{
+        margin-bottom: 20px;
+    }
+    .ask i {
+        padding: 6px;
+        border-radius: 50%;
+        font-size: 17px;
+    }
+    .feedback_img {
+        width: 40%;
+    }
+    .footer_UL{
+        margin-bottom: 30px;
+    }
+    .links_{
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    footer ul li {
+        margin-left: 18px;
+    }
+}
+@media(max-width:375px)and (min-width:321px){
+    .top_header{
+        display: none;
+    }
+    .btn_join{
+        display: none;
+    }
+    .large_btn_join{
+        display: inherit;
+    }
+    .nav-item{
+        text-align: center;
+        margin: auto;
+    }
+    .instration_item{
+        margin-bottom: 20px;
+    }
+    .instration_item p{
+        font-size:16px
+    }
+    .iphone img{
+        display: none;
+    }
+    .countan h4 {
+        font-size: 12px;
+    }
+    .countan h2 {
+        font-size: 33px;
+    }
+    .icon i {
+        font-size: 14px;
+    }
+    .icon {
+        width: 35px;
+        height: 35px;
+    }
+    .safe p {
+        font-size: 12px;
+    }
+    .safe {
+        top: 10%;
+        left: 20%;
+        transform: translate(-55%, -15%);
+    }
+    .icon3 i {
+        font-size: 14px;
+    }
+    .icon3 {
+        width: 35px;
+        height: 35px;
+    }
+    .exparts p {
+        font-size: 12px;
+    }
+    .exparts {
+        top: 10%;
+        right: 3%;
+        transform: translate(0px,-10px);
+    }
+    .icon2 i {
+        font-size: 14px;
+    }
+    .icon2 {
+        width: 35px;
+        height: 35px;
+    }
+    .phone p {
+        font-size: 12px;
+    }
+    .phone {
+        top: 50%;
+        left: 10%;
+        transform: translate(-15px, -15px);
+    }
+    .icon4 i {
+        font-size: 14px;
+    }
+    .icon4 {
+        width: 35px;
+        height: 35px;
+    }
+    .instant_ p{
+        font-size: 11px;
+    }
+    .instant_ {
+        top: 45%;
+        right: 0%;
+        transform: translate(-8px, -10px);
+    }
+    .icon5 {
+        width: 35px;
+        height: 35px;
+    }
+    .icon5 i {
+        font-size: 14px;
+    }
+    .Buys p{
+        font-size: 12px;
+    }
+    .Buys {
+        bottom: 0%;
+        right: 0%;
+        transform: translate(-18%, 15%);
+    }
+    .walet {
+        left: 12%;
+        top: 83%;
+        transform: translate(-11px, -10px);
+    }
+    .walet p{
+        font-size: 12px;
+    }
+    .heading p {
+        font-size: 13px;
+    }
+    .box {
+        width: 87px;
+        height: 37px;
+        margin-right: 30px;
+        margin-left: 10px;
+    }
+    .blog_contant{
+        margin-bottom: 20px;
+    }
+    .ask i {
+        padding: 10px;
+        border-radius: 50%;
+        font-size: 20px;
+    }
+    .feedback_img {
+        width: 40%;
+    }
+    .footer_UL{
+        margin-bottom: 30px;
+    }
+    .links_{
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    footer ul li {
+        margin-left: 18px;
+    }
+}
+@media(max-width:425px)and (min-width:376px){
+    .top_header{
+        display: none;
+    }
+    .btn_join{
+        display: none;
+    }
+    .large_btn_join{
+        display: inherit;
+    }
+    .nav-item{
+        text-align: center;
+        margin: auto;
+    }
+    .instration_item{
+        margin-bottom: 20px;
+    }
+    .instration_item p{
+        font-size: 18px;
+    }
+    .iphone img{
+        display: none;
+    }
+    .countan h4 {
+        font-size: 12px;
+    }
+    .countan h2 {
+        font-size: 33px;
+    }
+    .icon i {
+        font-size: 14px;
+    }
+    .icon {
+        width: 35px;
+        height: 35px;
+    }
+    .safe p {
+        font-size: 12px;
+    }
+    .safe {
+        top: 10%;
+        left: 20%;
+        transform: translate(-55%, -15%);
+    }
+    .icon3 i {
+        font-size: 14px;
+    }
+    .icon3 {
+        width: 35px;
+        height: 35px;
+    }
+    .exparts p {
+        font-size: 12px;
+    }
+    .exparts {
+        top: 10%;
+        right: 3%;
+        transform: translate(0px,-10px);
+    }
+    .icon2 i {
+        font-size: 14px;
+    }
+    .icon2 {
+        width: 35px;
+        height: 35px;
+    }
+    .phone p {
+        font-size: 12px;
+    }
+    .phone {
+        top: 50%;
+        left: 10%;
+        transform: translate(-15px, -15px);
+    }
+    .icon4 i {
+        font-size: 14px;
+    }
+    .icon4 {
+        width: 35px;
+        height: 35px;
+    }
+    .instant_ p{
+        font-size: 12px;
+    }
+    .instant_ {
+        top: 47%;
+        right: 0%;
+        transform: translate(-8px, -10px);
+    }
+    .icon5 {
+        width: 35px;
+        height: 35px;
+    }
+    .icon5 i {
+        font-size: 14px;
+    }
+    .Buys p{
+        font-size: 12px;
+    }
+    .Buys {
+        bottom: 1%;
+        right: 0%;
+        transform: translate(-18%, 15%);
+    }
+    .walet {
+        left: 12%;
+        top: 83%;
+        transform: translate(-11px, -10px);
+    }
+    .walet p{
+        font-size: 12px;
+    }
+    .heading p {
+        font-size: 16px;
+    }
+    .box {
+        width: 90px;
+        height: 45px;
+        margin-right: 30px;
+        margin-left: 10px;
+    }
+    .blog_contant{
+        margin-bottom: 20px;
+    }
+    .ask i {
+        padding: 10px;
+        border-radius: 50%;
+        font-size: 20px;
+    }
+    .feedback_img {
+        width: 40%;
+    }
+    .footer_UL{
+        margin-bottom: 30px;
+    }
+    .links_{
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    footer ul li {
+        margin-left: 18px;
+    }
+    .browser {
+        justify-content: normal;
+    }
+}
+@media(max-width:767px)and (min-width:426px){
+    .top_header{
+        display: none;
+    }
+    .btn_join{
+        display: none;
+    }
+    .large_btn_join{
+        display: inherit;
+    }
+    .nav-item{
+        text-align: center;
+        margin: auto;
+    }
+    .instration_item{
+        margin-bottom: 20px;
+    }
+    .services_item {
+        padding: 20px;
+    }
+    .iphone img{
+        display: none;
+    }
+    .futared_section h1 {
+        font-size: 27px;
+    }
+    .futared_section span {
+        width: 130px;
+    }
+    .box {
+        width: 91px;
+        height: 55px;
+        /* margin-left: 15px; */
+    }
+    .futared_section ul li h3 {
+        font-size: 22px;
+    }
+    .icon i {
+        font-size: 16px;
+    }
+    .icon {
+        width: 40px;
+        height: 40px;
+    }
+    .safe p {
+        font-size: 12px;
+    }
+    .safe {
+        top: 10%;
+        left: 15%;
+        transform: translate(-60%, -15%);
+    }
+    .icon3 i {
+        font-size: 16px;
+    }
+    .icon3 {
+        width: 40px;
+        height: 40px;
+    }
+    .exparts p {
+        font-size: 12px;
+    }
+    .exparts {
+        top: 10%;
+        right: 10%;
+        transform: translate(0px,-10px);
+    }
+    .icon2 i {
+        font-size: 16px;
+    }
+    .icon2 {
+        width: 40px;
+        height: 40px;
+    }
+    .phone p {
+        font-size: 12px;
+    }
+    .phone {
+        top: 50%;
+        left: 10%;
+        transform: translate(-15px, -15px);
+    }
+    .icon4 i {
+        font-size: 16px;
+    }
+    .icon4 {
+        width: 40px;
+        height: 40px;
+    }
+    .instant_ p{
+        font-size: 12px;
+    }
+    .instant_ {
+        top: 47%;
+        right: 10%;
+        transform: translate(6px, -10px);
+    }
+    .icon5 {
+        width: 40px;
+        height: 40px;
+    }
+    .icon5 i {
+        font-size: 16px;
+    }
+    .Buys p{
+        font-size: 12px;
+    }
+    .Buys {
+        bottom: 0%;
+        right: 9%;
+        transform: translate(-11%, 15%);
+    }
+    .walet {
+        left: 12%;
+        top: 83%;
+        transform: translate(-17px, -10px);
+    }
+    .walet p{
+        font-size: 12px;
+    }
+    .chart_section img{
+        width: 60%;
+    }
+    .footer_input{
+        width: 51%;
+    }
+    .blog_contant {
+        margin-bottom: 20px;
+    }
+    .heading p {
+        font-size: 16px;
+    }
+    .browser {
+        justify-content: normal;
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+    .coll {
+        justify-content: normal;
+    }
+    .lcation {
+        justify-content: normal;
+    }
+    .footer_UL ul {
+        justify-content: flex-start;
+        margin-bottom: 30px;
+    }
+    .footer_top h1 {
+        margin-top: 20px;
+    }
+    .feedback_img {
+        width: 40%;
+    }
+    .ask i{
+        padding: 18px;
+    }
+}
+@media(max-width:1023px)and (min-width:768px){
+    .top_header{
+        display: none;
+    }
+    .btn_join{
+        margin-top: 20px;
+    }
+    .nav-item{
+        text-align: center;
+        margin: auto;
+    }
+    .iphone {
+        position: absolute;
+        width: 45%;
+        bottom: 0px;
+        left: 2%;
+    }
+    .box {
+        width: 110px;
+        height: 45px;
+    }
+    .icon i {
+        font-size: 17px;
+    }
+    .icon {
+        width: 45px;
+        height: 45px;
+    }
+    .safe p {
+        font-size: 12px;
+    }
+    .safe {
+        top: 10%;
+        left: 15%;
+        transform: translate(-60%, -15%);
+    }
+    .icon3 i {
+        font-size: 17px;
+    }
+    .icon3 {
+        width: 45px;
+        height: 45px;
+    }
+    .exparts p {
+        font-size: 12px;
+    }
+    .exparts {
+        top: 10%;
+        right: 10%;
+        transform: translate(0px,-10px);
+    }
+    .icon2 i {
+        font-size: 17px;
+    }
+    .icon2 {
+        width: 45px;
+        height: 45px;
+    }
+    .phone p {
+        font-size: 12px;
+    }
+    .phone {
+        top: 50%;
+        left: 10%;
+        transform: translate(-15px, -15px);
+    }
+    .icon4 i {
+        font-size: 17px;
+    }
+    .icon4 {
+        width: 45px;
+        height: 45px;
+    }
+    .instant_ p{
+        font-size: 12px;
+    }
+    .instant_ {
+        top: 47%;
+        right: 10%;
+        transform: translate(6px, -10px);
+    }
+    .icon5 {
+        width: 45px;
+        height: 45px;
+    }
+    .icon5 i {
+        font-size: 17px;
+    }
+    .Buys p{
+        font-size: 12px;
+    }
+    .Buys {
+        bottom: 0%;
+        right: 9%;
+        transform: translate(-11%, 15%);
+    }
+    .walet {
+        left: 12%;
+        top: 83%;
+        transform: translate(-17px, -10px);
+    }
+    .walet p{
+        font-size: 12px;
+    }
+    .heading p {
+        font-size: 16px;
+    }
+    .lcation p, .coll p, .browser p {
+        font-size: 14px;
+    }
+    .links_ ul {
+        font-size: 17px;
+    }
+}
+/* @media(max-width:1440px)and (min-width:1025px){
+    .icon i {
+        font-size: 17px;
+    }
+    .icon {
+        width: 45px;
+        height: 45px;
+    }
+    .safe p {
+        font-size: 12px;
+    }
+    .safe {
+        top: 10%;
+        left: 15%;
+        transform: translate(-60%, -15%);
+    }
+    .icon3 i {
+        font-size: 17px;
+    }
+    .icon3 {
+        width: 45px;
+        height: 45px;
+    }
+    .exparts p {
+        font-size: 12px;
+    }
+    .exparts {
+        top: 10%;
+        right: 10%;
+        transform: translate(0px,-10px);
+    }
+    .icon2 i {
+        font-size: 17px;
+    }
+    .icon2 {
+        width: 45px;
+        height: 45px;
+    }
+    .phone p {
+        font-size: 12px;
+    }
+    .phone {
+        top: 50%;
+        left: 10%;
+        transform: translate(-15px, -15px);
+    }
+    .icon4 i {
+        font-size: 17px;
+    }
+    .icon4 {
+        width: 45px;
+        height: 45px;
+    }
+    .instant_ p{
+        font-size: 12px;
+    }
+    .instant_ {
+        top: 47%;
+        right: 10%;
+        transform: translate(6px, -10px);
+    }
+    .icon5 {
+        width: 45px;
+        height: 45px;
+    }
+    .icon5 i {
+        font-size: 17px;
+    }
+    .Buys p{
+        font-size: 12px;
+    }
+    .Buys {
+        bottom: 0%;
+        right: 9%;
+        transform: translate(-11%, 15%);
+    }
+    .walet {
+        left: 12%;
+        top: 83%;
+        transform: translate(-17px, -10px);
+    }
+    .walet p{
+        font-size: 12px;
+    }
+} */

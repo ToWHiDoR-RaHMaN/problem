@@ -1,0 +1,1024 @@
+*{  margin: 0px;
+    padding: 0px; 
+    font-family: Montserrat, sans-serif; 
+}
+.top_header {
+    background: rgb(239, 239, 239); 
+    padding: 10px 0px; 
+}
+.top_header p {
+    margin: 0px; 
+    padding: 0px; 
+    color: rgb(127, 127, 127); 
+    font-size: 15px; 
+}
+.top_header ul { 
+    margin: 0px; 
+    padding: 0px; 
+    list-style: none; 
+    display: flex; 
+    justify-content: space-between; 
+}
+.top_header ul li a { 
+    color: rgb(127, 127, 127); 
+    text-decoration: none; 
+    text-transform: uppercase; 
+    font-size: 15px; 
+    font-weight: 500; 
+}
+.btn_join, .large_btn_join { 
+    background: rgb(255, 155, 26); 
+    margin: 0px 0px 0px 15px; 
+    padding: 6px 17px; 
+    border-radius: 30px; 
+    color: rgb(255, 255, 255); 
+    font-size: 15px; 
+    font-weight: 500; 
+    transition: all 0.5s ease-in-out 0s; 
+}
+.btn:hover { 
+    background: transparent; 
+    color: black; 
+    border: 1px solid black; 
+}
+.large_btn_join { 
+    display: none; 
+}
+.navbar-light .navbar-nav .nav-link { 
+    font-weight: 500; 
+    color: rgb(22, 22, 22); 
+    font-size: 15px; 
+    margin-left: 16px; 
+    position: relative; 
+    padding: 0px; 
+    margin-top: 7px; 
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover { 
+    color: rgb(255, 155, 26); 
+}
+.navbar-light .navbar-nav .nav-link::before { 
+    content: ""; 
+    position: absolute; 
+    left: 0px; 
+    bottom: 0px; 
+    height: 2px; 
+    width: 0px; 
+    background: rgb(247, 143, 47); 
+}
+.navbar-light .navbar-nav .nav-link::after { 
+    content: ""; 
+    position: absolute; 
+    right: 0px; 
+    bottom: 0px; 
+    height: 2px; 
+    width: 0px; 
+    background: rgb(247, 143, 47); 
+    transition: all 0.4s ease-in-out 0s; 
+}
+.navbar-light .navbar-nav .nav-link:hover::before { 
+    content: ""; 
+    position: absolute; 
+    left: 0px; 
+    bottom: 0px; 
+    height: 2px; 
+    width: 45%; 
+    background: rgb(247, 143, 47); 
+    transition: all 0.4s ease-in-out 0s; 
+}
+.navbar-light .navbar-nav .nav-link:hover::after { 
+    content: ""; 
+    position: absolute; 
+    right: 0px; 
+    bottom: 0px; 
+    height: 2px; 
+    width: 45%; 
+    background: rgb(247, 143, 47); 
+}
+.banner_section { 
+    background-image: url("../images/header-withback.png"); 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+.hight { 
+    min-height: 80vh; 
+    align-items: center; 
+}
+.banner_section h1 { 
+    font-family: Raleway, sans-serif; 
+    color: rgb(255, 255, 255); 
+}
+.count { 
+    display: flex; 
+    justify-content: space-around; 
+    margin: 30px 0px; 
+}
+.count_itam { 
+    text-align: center; 
+}
+.count_itam h5 { 
+    color: rgb(255, 255, 255); 
+}
+.count_itam h6 { 
+    color: rgb(255, 255, 255); 
+}
+.btn_joins { 
+    background: rgb(255, 155, 26); 
+    margin: 0px 0px 0px 15px; 
+    padding: 6px 22px; 
+    border-radius: 30px; 
+    color: rgb(255, 255, 255); 
+    font-size: 15px; 
+    font-weight: 500; 
+    letter-spacing: 1px; 
+    transition: all 0.5s ease-in-out 0s; 
+}
+.btn_joins:hover { 
+    background: transparent; 
+    color: rgb(204, 204, 204);
+    border: 1px solid rgb(170, 170, 170); 
+}
+.btn_cont { 
+    background: transparent; 
+    color: rgb(204, 204, 204); 
+    border: 1px solid rgb(170, 170, 170); 
+    margin: 0px 0px 0px 15px; 
+    padding: 6px 17px; 
+    border-radius: 30px; 
+    font-size: 15px; 
+    font-weight: 500; 
+    transition: all 0.4s ease-in-out 0s; 
+}
+.btn_cont:hover { 
+    background: rgb(255, 155, 26); 
+    margin: 0px 0px 0px 15px; 
+    padding: 6px 17px; 
+    border-radius: 30px; 
+    color: rgb(255, 255, 255); 
+    font-size: 15px; 
+    font-weight: 500; 
+}
+.instration_item { 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    padding: 40px 20px; 
+    text-align: center; 
+    transition: all 0.5s ease-in-out 0s; 
+    position: relative; 
+    z-index: 0; 
+    border: 1px solid rgb(151, 151, 151); 
+    border-radius: 5px; 
+}
+.instration_item::before { 
+    content: ""; 
+    position: absolute; 
+    top: 0px; 
+    left: 0px; 
+    width: 0%; 
+    height: 0%; 
+    background: linear-gradient(rgba(204, 163, 6, 0.82) 0%, rgba(233, 104, 8, 0.82) 100%); 
+    z-index: -1; 
+}
+.instration_item:hover { 
+    background-image: url("../images/bitcoin..............png"); 
+    background-position: center center; 
+    cursor: pointer; 
+    border: 1px solid rgb(247, 143, 47); 
+}
+.instration_item:hover::before { 
+    width: 100%; 
+    height: 100%; 
+}
+.instration_item i { 
+    font-size: 40px; 
+    color: rgb(255, 155, 26); 
+    margin-top: 15px; 
+}
+.instration_item:hover i { 
+    color: rgb(255, 255, 255); 
+}
+.instration_item h3 { 
+    padding: 25px 0px; 
+    font-family: Montserrat, sans-serif; 
+    font-size: 24px;
+}
+.instration_item:hover h3 { 
+    color: rgb(255, 255, 255); 
+}
+.instration_item p { 
+    font-family: Montserrat, sans-serif; 
+}
+.instration_item:hover p { 
+    color: rgb(255, 255, 255); 
+}
+.heading h2 { 
+    font-family: Montserrat, sans-serif; 
+    font-weight: 600; 
+    text-transform: uppercase; 
+}
+.heading p { 
+    color: rgb(110, 110, 110); 
+    font-size: 14px; 
+}
+.heading span {
+    display: block;
+    height: 2px;
+    width: 100px;
+    background: rgb(247, 147, 26);
+    margin-top: 15px;
+    margin: auto;
+}
+.SERVICE_section {
+    padding-bottom: 50px; 
+}
+.services_item h3 { 
+    font-family: Raleway, sans-serif; 
+    color: rgb(43, 43, 43); 
+    font-weight: 600; 
+}
+.services_item p { 
+    font-family: Raleway, sans-serif; 
+    font-size: 14px; 
+    color: rgb(66, 66, 66); 
+}
+.item_img { 
+    width: 18%; 
+    margin: auto auto 15px; 
+}
+.btn_view { 
+    background: transparent; 
+    color: rgb(0, 0, 0); 
+    border: 1px solid rgb(134, 134, 134); 
+    margin: 30px 0px 0px; 
+    padding: 6px 17px; 
+    border-radius: 30px; 
+    font-size: 15px; 
+    font-weight: 500; 
+    text-align: center; 
+    transition: all 0.4s ease-in-out 0s; 
+    font-family: Raleway, sans-serif; 
+}
+.btn_view:hover { 
+    background: rgb(255, 155, 26); 
+    margin: 30px 0px 0px;
+    padding: 6px 17px; 
+    border-radius: 30px; 
+    color: rgb(255, 255, 255); 
+    font-size: 15px; 
+    font-weight: 600;
+    border-color: rgb(255, 155, 26); 
+}
+.futared_section {
+    background-image: url("../images/bitcoin_back.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;position: relative;
+    padding-top: 100px;
+    padding-bottom: 75px;
+}
+.futared_section h1 { 
+    color: rgb(255, 255, 255); 
+    font-size: 24px; 
+    text-transform: uppercase; 
+    font-weight: 600; 
+}
+.futared_section span { 
+    display: block;
+    height: 2px; 
+    width: 80px; 
+    background: rgb(255, 155, 26); 
+}
+.futared_section ul { 
+    list-style: none; 
+    padding: 0px; 
+    margin: 0px; 
+}
+.futared_section ul li { 
+    margin: 15px 0px; 
+    display: flex; 
+}
+.box {
+    width: 91px;
+    height: 55px;
+    border: 3px solid rgb(247 147 26);
+    border-radius: 5px;
+    transform: rotate(45deg);
+    margin-right: 35px;
+    margin-top: 15px;
+    }
+.futared_section ul li h3 { 
+    color: rgb(255, 255, 255); 
+    font-size: 20px; 
+    font-family: Raleway, sans-serif; 
+}
+.futared_section ul li p { 
+    color: rgb(255, 255, 255); 
+    font-size: 17px;
+    font-family: Raleway, sans-serif;  
+}
+.iphone { 
+    position: absolute; 
+    width: 30%; 
+    bottom: 0px; 
+    left: 16%; 
+}
+.iphone img { 
+    width: 100%; 
+}
+.countan{
+
+background: #ff9b1a;
+}
+.countan h2{
+    font-family: Raleway, sans-serif;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+}
+.countan h4{
+    font-family: Raleway, sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.chart_section{
+
+padding: 100px;
+
+position: relative;
+}
+.safe{
+
+position: absolute;
+
+top: 15%;
+
+left: 30%;
+
+transform: translate(-70%, -10%);
+}
+.safe p{
+    text-transform: capitalize;
+}
+.icon{
+
+width: 50px;
+
+height: 50px;
+
+border: 2px solid #f85554;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+margin: auto;
+
+margin-bottom: 10px;
+
+transform: rotate(45deg);
+
+border-radius: 7px;
+}
+.icon i{
+    
+transform: rotate(315deg);
+    
+font-size: 21px;
+    
+color: #f85554;
+}
+.phone{
+    
+position: absolute;
+    
+top: 50%;
+    
+left: 18%;
+    
+transform: translate(-10px, -10px);
+}
+.icon2{
+
+width: 50px;
+
+height: 50px;
+
+border: 2px solid #63cd68;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+margin: auto;
+
+margin-bottom: 10px;
+
+transform: rotate(45deg);
+
+border-radius: 7px;
+}
+.icon2 i{
+    transform: rotate(315deg);
+    font-size: 21px;
+    color: #63cd68;
+}
+.phone p{
+    text-align: center;
+}
+.walet{
+    
+position: absolute;
+    
+top: 80%;
+    
+left: 27%;
+    
+transform: translate(-10px, -10px);
+}
+.icon3{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #43c5ca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 10px;
+    transform: rotate(45deg);
+    border-radius: 7px;
+}
+.icon3 i{
+    transform: rotate(315deg);
+    font-size: 18px;
+    color: #43c5ca;
+}
+.walet p{
+    text-align: center;
+}
+.exparts{
+    position: absolute;
+    top: 13%;
+    right: 20%;
+    transform: translate(-3px, -10px);
+}
+.icon3{
+    width: 50px;
+    height: 50px;
+    border: 2px solid #43c5ca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 10px;
+    transform: rotate(45deg);
+    border-radius: 7px;
+}
+.icon3 i{
+    transform: rotate(315deg);
+    font-size: 21px;
+    color: #43c5ca;
+}
+.exparts p{
+    text-align: center;
+}
+.instant_{
+    
+position: absolute;
+    
+top: 50%;
+    
+right: 18%;
+    
+transform: translate(5px, -21px);
+}
+.icon4{
+
+width: 50px;
+
+height: 50px;
+
+border: 2px solid #63cd68;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+margin: auto;
+
+margin-bottom: 10px;
+
+transform: rotate(45deg);
+
+border-radius: 7px;
+}
+.icon4 i{
+    transform: rotate(315deg);
+    font-size: 21px;
+    color: #63cd68;
+}
+.instant_ p{
+    text-align: center;
+}
+.Buys{
+    position: absolute;
+    bottom: 0%;
+    right: 20%;
+    transform: translate(-40%, -10%);
+}
+.icon5{
+    width: 50px;
+    height: 50px;
+    border: 2px solid #f85554;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 10px;
+    transform: rotate(45deg);
+    border-radius: 7px;
+}
+.icon5 i{
+        
+transform: rotate(315deg);
+        
+font-size: 21px;
+        
+color: #f85554;
+}
+.Buys p{
+    text-align: center;
+}
+.team_itam h3{
+
+font-size: 22px;
+
+color: #1e1e1e;
+
+font-weight: 500;
+
+margin-top: 40px;
+}
+.team_itam h4{
+    
+font-size: 15px;
+    
+color: #fba057;
+    
+letter-spacing: 1px;
+    
+text-transform: uppercase;
+}
+.contact_from{
+    background-image: url(../images/from_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact_head h1{
+
+color: #fff;
+
+text-transform: uppercase;
+
+font-weight: 400;
+}
+.contact_head span{
+    
+display: block;
+    
+height: 2px;
+    
+width: 100px;
+    
+background: #f8a034;
+    
+margin: auto;
+}
+.contact_from form textarea{
+
+background: transparent;
+
+margin-bottom: 20px;
+
+color: #fff;
+}
+.contact_from form input{
+    
+background: transparent;
+    
+border: 1px solid #fff;
+    
+margin-bottom: 10px;
+}
+.form-control:focus {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+    outline: 0;
+    box-shadow: none;
+}
+.contact_from input[type="submit"]{
+    
+width: auto;
+    
+background: none;
+    
+border: none;
+    
+background: #f8a034;
+    
+padding: 0;
+    
+padding: 10px 35px;
+    
+text-transform: uppercase;
+    
+letter-spacing: 1px;
+    
+color: wheat;
+    
+font-weight: 500;
+    
+border: 1px solid #f8a034;
+    
+border-radius: 30px;
+    
+margin: auto;
+}
+.contact_from input[type="submit"]:hover{
+    background: transparent;
+    color: black;
+    border-color: rgb(36, 36, 36);
+    font-weight: 600;
+}
+.contact_from input::placeholder{
+    color: #fff;
+    font-weight: 500;
+}
+.form-control::placeholder{
+    color: #fff;
+    font-weight: 500;
+}
+.blog_contant{
+
+}
+.blog_img{
+
+position: relative;
+}
+.blog_img img{
+
+width: 100%;
+}
+.icon__ i{
+
+background: #F26C4F;
+
+color: #fff;
+
+padding: 20px 20px;
+
+font-size: 20px;
+
+border-radius: 50%;
+
+position: absolute;
+
+bottom: -23px;
+
+left: 22px;
+}
+.title{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+}
+.down_Div{
+    
+    border: 1px solid #6e7777;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.down_Div h3{
+
+font-size: 20px;
+
+font-weight: 600;
+
+padding-left: 20px;
+
+padding-top: 20px;
+
+padding-bottom: 20px;
+}
+.down_Div h6{
+
+padding-left: 20px;
+
+color: #6e6e6e;
+
+font-size: 16px;
+
+padding-bottom: 30px;
+}
+.feedback_{
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+}
+.feedback_img{
+
+width: 20%;
+
+position: relative;
+}
+.feedback_img img{
+    
+width: 100%;
+    
+border-radius: 50%;
+}
+.ask i{
+    
+position: absolute;
+    
+background: #FA8E2B;
+    
+color: #fff;
+    
+padding: 20px;
+    
+border: 2px solid #fff;
+    
+border-radius: 50%;
+    
+bottom: 0;
+    
+right: 0;
+    
+font-size: 20px;
+}
+.feedback_ h2{
+
+text-transform: capitalize;
+
+font-weight: 700;
+
+font-size: 25px;
+
+padding: 20px 0px;
+
+text-align: center;
+}
+.feedback_ h4{
+
+color: #F78C2B;
+
+text-transform: uppercase;
+
+letter-spacing: 1px;
+
+text-align: center;
+}
+.footer_top{
+
+border-top: 4px solid #f78f2f;
+
+background: #101010;
+}
+.footer_up_logo{
+
+margin-bottom: 20px;
+}
+.footer_top p{
+
+color: #989898;
+
+margin-bottom: 20px;
+}
+.footer_UL{
+
+}
+.footer_UL ul{
+
+list-style: none;
+
+display: flex;
+
+justify-content: space-between;
+
+margin: 0px;
+
+padding: 0px;
+
+width: 80%;
+}
+.footer_UL ul li a i{
+
+color: #817c7c;
+
+height: 50px;
+
+width: 50px;
+
+border: 1px solid #817c7c;
+
+line-height: 50px;
+
+text-align: center;
+
+border-radius: 50%;
+
+margin-right: 10px;
+
+font-size: 20px;
+}
+.footer_UL ul li a i:hover{
+    
+color: #0b6eff;
+    
+border-color: #0b6eff;
+}
+.footer_top h1{
+
+color: #fff;
+
+text-transform: uppercase;
+
+letter-spacing: 1px;
+
+margin-bottom: 14px;
+
+font-size: 20px;
+}
+.footer_top span{
+    
+display: block;
+    
+width: 145px;
+    
+height: 2px;
+    
+transition: .4s all ease-in-out;
+    
+background: #FB8F2C;
+}
+.lcation i, .coll i,.browser i{
+    
+color: #989898;
+    
+font-size: 25px;
+    
+margin-right: 20px;
+}
+.lcation p,.coll p,.browser p{
+    
+color: #989898;
+    
+font-size: 20px;
+    
+margin: 0;
+}
+.lcation{
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+margin-top: 20px;
+
+margin-bottom: 15px;
+}
+.coll{
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+margin-bottom: 15px;
+}
+.browser{
+    
+display: flex;
+    
+justify-content: center;
+    
+align-items: center;
+    
+margin-bottom: 15px;
+}
+.links_{
+
+}
+.links_ ul{
+    
+padding: 0;
+    
+list-style: none;
+    
+color: #989898;
+    
+margin-top: 20px;
+    
+font-size: 19px;
+} 
+.news p{
+    
+margin-top: 20px;
+}
+.footer_input{
+    
+position: relative;
+}
+.footer_input input{
+
+background: transparent;
+
+border: none;
+
+padding: 0;
+
+background: #fff;
+
+padding: 11px 24px;
+
+border: 1px solid #fff;
+
+border-radius: 30px;
+
+margin-top: 30px;
+width: 100%;
+}
+.footer_input i{
+
+position: absolute;
+
+background: #FB8F2C;
+
+color: #fff;
+
+padding: 16px;
+
+border-radius: 50%;
+
+bottom: 0;
+
+right: 0;
+
+cursor: pointer;
+}
+footer{
+
+background: black;
+}
+footer p{
+
+color: #989898;
+}
+footer ul{
+
+padding: 0;
+
+list-style: none;
+
+display: flex;
+
+flex-wrap: wrap;
+}
+footer ul li{
+    margin-left: auto;
+}
+footer ul li a{
+    
+text-decoration: none;
+    
+color: #989898;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* font-family: Raleway, sans-serif;  */
